@@ -13,5 +13,5 @@ end
 def pop_with_args(array)
   newArr = []
   newArr.unshift(array.pop)
-  newArr.uhshift(array.pop)
+  newArr.unshift(array.pop)
 end
