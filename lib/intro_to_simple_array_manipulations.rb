@@ -11,7 +11,7 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  newArr = []
-  newArr.unshift(array.pop)
-  newArr.unshift(array.pop)
+  newArr = array.take(array.size - 2)
+  
+  
 end
